@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ImgOPT\n"
+"POT-Creation-Date: 2025-03-25 17:41+0900\n"
+"PO-Revision-Date: 2025-03-25 17:43+0900\n"
+"Last-Translator: \n"
+"Language-Team: haz3mn\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ../includes\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: menu_page.php\n"
+"X-Poedit-SearchPath-1: imgopt-settings.php\n"
+
+#: imgopt-settings.php:7 imgopt-settings.php:19
+msgid "ImgOPT Settings"
+msgstr "ImgOPT の設定"
+
+#: imgopt-settings.php:8
+msgid "Settings"
+msgstr "設定"
+
+#: imgopt-settings.php:39
+msgid "Display Optimized Images"
+msgstr "最適化された画像を表示"
+
+#: imgopt-settings.php:45
+msgid "Show Optimized Images"
+msgstr "最適化された画像を表示"
+
+#: imgopt-settings.php:58
+msgid "Enable or disable optimized image display on the frontend."
+msgstr "フロントエンドでの最適化された画像表示を有効または無効にします。"
+
+#: menu_page.php:46
+msgid "Optimize Images - ImgOPT"
+msgstr "画像最適化 - ImgOPT"
+
+#: menu_page.php:47
+msgid "Caution: please backup wp-content/uploads."
+msgstr "注意: wp-content/uploadsをバックアップしてください。"
+
+#: menu_page.php:51
+msgid "Optimize Now"
+msgstr "今すぐ最適化"
+
+#: menu_page.php:56
+msgid "Optimizing images..."
+msgstr "画像を最適化しています..."
+
+#: menu_page.php:60
+msgid "Images optimized successfully."
+msgstr "画像は正常に最適化されました。"
+
+#: menu_page.php:62
+msgid "Image optimization failed."
+msgstr "画像の最適化に失敗しました。"
+
+#: menu_page.php:65
+msgid "Bad Request."
+msgstr "不正なリクエストです。"
