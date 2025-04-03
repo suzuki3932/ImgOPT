@@ -32,7 +32,7 @@ function imgopt_register_settings() {
     register_setting(
         'imgopt_settings_group',
         'imgopt_show_optimized',
-        'imgopt_sanitize_show_optimized' // サニタイズコールバック関数を指定
+        'imgopt_sanitize_show_optimized' // Sanitization
     );
     add_settings_section(
         'imgopt_settings_section',
@@ -51,7 +51,7 @@ function imgopt_register_settings() {
 add_action('admin_init', 'imgopt_register_settings');
 
 function imgopt_sanitize_show_optimized($input) {
-    return isset($input) ? 1 : 0; // チェックボックスがチェックされている場合は1、そうでない場合は0を返す
+    return isset($input) ? 1 : 0; // If checked checkbox, this is returns 1, not checked, returns 0
 }
 
 function imgopt_settings_section_callback() {
@@ -60,9 +60,8 @@ function imgopt_settings_section_callback() {
 }
 
 function imgopt_show_optimized_field_callback() {
-    $option = get_option('imgopt_show_optimized', 1); // デフォルト値を1に設定
+    $option = get_option('imgopt_show_optimized', 1); // Default is 1
     ?>
     <input type="checkbox" name="imgopt_show_optimized" value="1" <?php checked(1, $option); ?> />
     <?php
 }
-?>
