@@ -4,7 +4,7 @@ Tags: webp, compress, image, optimize, boost
 Tested up to: 6.8
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
-Stable Tag: 1.0
+Stable Tag: 1.0.1
 Requires PHP: 7.4
 Requires at least: 5.0
 Optimize Images, more speed for WordPress site.
